@@ -23,5 +23,6 @@ const Wrapper = styled.section`
         align-items:center;
         min-width: 200px;
         height : 800px;
+        width: 100%;
     }
 `
