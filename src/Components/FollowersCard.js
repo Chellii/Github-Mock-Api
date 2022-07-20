@@ -48,7 +48,7 @@ const Wrapper = styled.section`
         flex-direction: column;
         list-style: none;
         overflow-y: scroll;
-        height: 100%;
+        height: 90%;
         ::-webkit-scrollbar {
             width: 0.3em;
         }
