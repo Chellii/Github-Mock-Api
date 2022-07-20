@@ -33,6 +33,16 @@ const Wrapper = styled.section`
     border-radius: 0.25em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     width: 50%;
+    &::before {
+        content: 'Followers';
+    background: #C176BA;
+    color: white;
+    border-top-right-radius: 0.55em;
+    border-top-left-radius: 0.25em;
+    text-transform: capitalize;
+    padding: 0.5rem 1rem 0 1rem;
+    font-size: 1.2rem;
+	}
     .followers {
         display: flex;
         flex-direction: column;
