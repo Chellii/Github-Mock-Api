@@ -78,8 +78,16 @@ const Wrapper = styled.section`
         .followers {
             height: 300px;
         }
-        .article{
-            font-size: 12px;
+        article{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            div {
+                align-items: center;
+                flex-direction: column;
+                display: flex;
+            }
         }
     }
 `
