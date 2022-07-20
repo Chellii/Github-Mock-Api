@@ -23,7 +23,7 @@ const Wrapper = styled.section`
     width: 50%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     
-    @media (max-width:1000px)
+    @media (max-width:800px)
     {
         margin-right: 0;
         margin-bottom: 2em;

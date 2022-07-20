@@ -32,7 +32,7 @@ const Wrapper = styled.section`
         justify-content: center;
     }
 
-    @media (max-width:1000px){
+    @media (max-width:800px){
         display: flex;
         flex-direction: column;
         align-items: center;

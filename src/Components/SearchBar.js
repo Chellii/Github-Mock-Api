@@ -38,7 +38,7 @@ export default function SearchBar() {
 const Wrapper = styled.div`
 	padding-bottom: 1.5em;
 	width: 80%;
-	@media (max-width:1000px){
+	@media (max-width:800px){
 		width: 90%;
 	}
 	.form-control {

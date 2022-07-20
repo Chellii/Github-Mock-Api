@@ -58,7 +58,7 @@ export default function StarterPage() {
 const Wrapper = styled.section`
     padding-bottom: 1.5em;
     width: 50%;
-    @media (max-width:1000px){
+    @media (max-width:800px){
         width: 80%;
     }
     .form-control {

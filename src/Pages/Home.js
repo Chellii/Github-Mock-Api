@@ -30,7 +30,7 @@ const Wrapper = styled.div`
     margin-left: 1em;
     max-width:900px
 
-    @media (max-width: 1000px) {
+    @media (max-width: 800px) {
         max-width: 0;
     }
 
