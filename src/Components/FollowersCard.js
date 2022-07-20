@@ -57,6 +57,7 @@ const Wrapper = styled.section`
         padding: 0.5em 1em;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin-bottom: 0.3em;
+        width:100%;
         img {
             height: 100%;
             width: 45px;
