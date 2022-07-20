@@ -73,7 +73,7 @@ const Wrapper = styled.section`
     }
 
     @media (max-width:1000px) {
-        width: 80%;
+        width: 90%;
         .followers {
             height: 300px;
         }

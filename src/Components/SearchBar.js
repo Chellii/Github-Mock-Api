@@ -41,7 +41,7 @@ const Wrapper = styled.div`
 	padding-bottom: 1.5em;
 	width: 80%;
 	@media (max-width:1000px){
-		width: 60%;
+		width: 80%;
 	}
 	.form-control {
 		background: white;

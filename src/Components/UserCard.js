@@ -27,6 +27,6 @@ const Wrapper = styled.section`
     {
         margin-right: 0;
         margin-bottom: 2em;
-        width: 80%;
+        width: 90%;
     }
 `
