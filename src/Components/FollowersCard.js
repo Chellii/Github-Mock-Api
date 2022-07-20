@@ -78,5 +78,8 @@ const Wrapper = styled.section`
         .followers {
             height: 300px;
         }
+        .article{
+            font-size: 12px;
+        }
     }
 `
