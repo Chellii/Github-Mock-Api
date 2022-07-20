@@ -98,6 +98,7 @@ const Wrapper = styled.section`
 
 const PageContainer = styled.section`
     min-height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
