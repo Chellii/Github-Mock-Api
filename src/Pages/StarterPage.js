@@ -59,7 +59,7 @@ const Wrapper = styled.section`
     padding-bottom: 1.5em;
     width: 50%;
     @media (max-width:1000px){
-        width: 50%;
+        width: 80%;
     }
     .form-control {
         background: white;
