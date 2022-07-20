@@ -80,6 +80,7 @@ const Wrapper = styled.section`
 			margin-bottom: 0;
 		}
 		a {
+            font-size: 0.8em;
 			color: #0080FF;
 		}
     }
