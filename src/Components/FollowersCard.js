@@ -44,6 +44,7 @@ const Wrapper = styled.section`
     font-size: 1.2rem;
 	}
     .followers {
+        border: 1px solid #d7d7d7;
         display: flex;
         flex-direction: column;
         list-style: none;
