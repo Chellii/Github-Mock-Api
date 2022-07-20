@@ -23,7 +23,10 @@ const Wrapper = styled.section`
     display: flex;
     align-items: center;
     padding-top: 4em;
+    margin-right: 1em;
+    margin-left: 1em;
     div {
         max-width:1200px
+        min-width: 400px;
     }
 `

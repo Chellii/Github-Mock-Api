@@ -83,7 +83,7 @@ const Wrapper = styled.div`
 	}
 	h3 {
 		margin-bottom: 0;
-		color: var(--clr-grey-5);
+		color: grey;
 		font-weight: 400;
 	}
 `
