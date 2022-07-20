@@ -17,8 +17,6 @@ function GithubContextProvider({children}) {
 		const response = await axios
 			.get(`users/${user}`)
 			.catch((err) => console.log(err))
-
-		console.log(response);
 		if (response) {
 			setGithubUser(response.data)
 			const { followers_url, login } = response.data

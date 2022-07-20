@@ -4,7 +4,6 @@ import styled from "styled-components"
 
 export default function User() {
     const data = React.useContext(GithubApiContext)
-    console.log(data.githubUser)
     return (
         <Wrapper>
             <img src={data.githubUser.avatar_url} alt={data.githubUser.name} />

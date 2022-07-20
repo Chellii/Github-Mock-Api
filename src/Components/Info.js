@@ -34,7 +34,7 @@ export default function Info() {
             {
                 items.map((item) => {
                     return (
-                        <article className='item'>
+                        <article key={item.id} className='item'>
                             {item.icon}
                             <div>
                                 <h3>{item.value}</h3>

@@ -6,16 +6,16 @@ import styled from 'styled-components'
 
 export default function Home() {
     return (
-        <divWrapper>
+        <DivWrapper>
             <Navbar />
             <Wrapper>
                 <SearchBar />
                 <Dashboard />
             </Wrapper>
-        </divWrapper>
+        </DivWrapper>
     )
 }
-const divWrapper = styled.div`
+const DivWrapper = styled.div`
     width: 100%;
 `
 

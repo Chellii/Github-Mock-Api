@@ -8,12 +8,10 @@ export default function SearchBar() {
 	const { searchGithubUser } = React.useContext(GithubApiContext);
 
 	const handleSubmit = (e) => {
-		console.log(e.target.value)
 		e.preventDefault();
 		if (user) {
 			searchGithubUser(user);
 		}
-		console.log(user);
 	};
 
 	return (
