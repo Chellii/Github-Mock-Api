@@ -11,7 +11,7 @@ export default function StarterPage() {
 	const { searchGithubUser } = React.useContext(GithubApiContext);
     const navigate = useNavigate();
 
-    const isUserExist = async (user) => {
+    const isUser = async (user) => {
         const response = await axios
 			.get(`users/${user}`)
 			.catch((err) => console.log(err))
@@ -26,7 +26,7 @@ export default function StarterPage() {
 		console.log(e.target.value)
 		e.preventDefault();
 		if (user) {
-            isUserExist(user)
+            isUser(user)
 		}
 		console.log(user);
 	};
@@ -56,19 +56,19 @@ export default function StarterPage() {
 }
 
 const Wrapper = styled.section`
-padding-bottom: 1.5em;
-width: 50%;
-@media (max-width:1000px){
+    padding-bottom: 1.5em;
     width: 50%;
-}
-.form-control {
-    background: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid grey;
-    border-radius: 5px;
-    padding: 0.5em;
+    @media (max-width:1000px){
+        width: 50%;
+    }
+    .form-control {
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 0.5em;
     input {
         width: 100%;
         padding: 0.25em 0.5em;
@@ -89,19 +89,11 @@ width: 50%;
         transition: var(--transition);
         cursor: pointer;
     }
-    @media (max-width: 800px) {
-        button,
-        input,
-        svg {
-            font-size: 0.85em;
-        }
+    h3 {
+        margin-bottom: 0;
+        color: grey;
+        font-weight: 400;
     }
-}
-h3 {
-    margin-bottom: 0;
-    color: grey;
-    font-weight: 400;
-}
 `
 
 const PageContainer = styled.section`

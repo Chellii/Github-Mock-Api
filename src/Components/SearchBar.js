@@ -15,7 +15,7 @@ export default function SearchBar() {
 	};
 
 	return (
-			<Wrapper className='section-center'>
+			<Wrapper>
 				<form onSubmit={handleSubmit}>
 					<div className='form-control'>
 						<BiSearch></BiSearch>
@@ -57,24 +57,14 @@ const Wrapper = styled.div`
 		}
 		input::placeholder {
 			color: grey;
-			text-transform: capitalize;
 		}
 		button {
 			border-radius: 5px;
 			border-color: transparent;
 			padding: 0.25em 0.5em;
-			text-transform: capitalize;
 			background: violet;
 			color: white;
-			transition: var(--transition);
 			cursor: pointer;
-		}
-		@media (max-width: 800px) {
-			button,
-			input,
-			svg {
-				font-size: 0.85em;
-			}
 		}
 	}
 	h3 {
