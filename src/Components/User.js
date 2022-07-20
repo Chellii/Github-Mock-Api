@@ -25,6 +25,7 @@ const Wrapper = styled.section`
         width: 100px;
         height: 100px;
         border-radius: 80%;
+        margin-right: 1em;
     }
     .user-identity {
         display: flex;
