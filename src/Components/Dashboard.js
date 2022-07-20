@@ -6,12 +6,24 @@ import styled from 'styled-components'
 export default function Dashboard() {
     return (
         <Wrapper>
-            <UserCard />
-            <FollowersCard />
+                <UserCard />
+                <FollowersCard />
         </Wrapper>
     )
 }
 
 const Wrapper = styled.section`
-    display: flex
+        display: flex;
+        height: 350px;
+        margin-bottom: 1em;
+
+    @media (max-width: 1000px) {
+        display: flex;
+        flex-direction: column;
+        height : 800px
+
+    }
+
+    
+    
 `

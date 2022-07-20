@@ -51,29 +51,14 @@ export default function Info() {
 const Wrapper = styled.section`
 .item {
     border-radius: 0.25rem;
-    padding: 1rem 2rem;
-    background: green;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    column-gap: 3rem;
+    padding: 0.5rem 1rem;
+    background: #C176BA;
     align-items: center;
-    span {
-        width: 3rem;
-        height: 3rem;
-        display: grid;
-        place-items: center;
-        border-radius: 50%;
-    }
-    .icon {
-        font-size: 1.5rem;
-    }
-    h3 {
-        margin-bottom: 0;
-        letter-spacing: 0;
-    }
-    p {
-        margin-bottom: 0;
-        text-transform: capitalize;
+    margin-bottom: 0.5em;
+    display: flex;
+    
+    div {
+        margin-left: 1em;
     }
 }
 `

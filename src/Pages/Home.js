@@ -22,6 +22,7 @@ const Wrapper = styled.section`
     flex-direction: column;
     display: flex;
     align-items: center;
+    padding-top: 4em;
     div {
         max-width:1200px
     }

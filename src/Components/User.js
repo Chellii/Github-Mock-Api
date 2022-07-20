@@ -18,7 +18,9 @@ export default function User() {
 }
 
 const Wrapper = styled.section`
-    display:flex;
+    display: flex;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
     img {
         width: 100px;
         height: 100px;
