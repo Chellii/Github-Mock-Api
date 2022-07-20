@@ -12,7 +12,7 @@ export default function Navbar() {
 const Wrapper = styled.div`
     background: white;
     width: 100%;
-    height: 2em;
+    height: 4em;
     display: flex;
     align-items: center;
     justify-content: center;

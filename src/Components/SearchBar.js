@@ -70,10 +70,6 @@ const Wrapper = styled.div`
 			color: white;
 			transition: var(--transition);
 			cursor: pointer;
-			&:hover {
-				background: blue;
-				color: pink;
-			}
 		}
 		@media (max-width: 800px) {
 			button,
