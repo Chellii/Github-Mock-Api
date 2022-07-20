@@ -6,27 +6,37 @@ import styled from 'styled-components'
 
 export default function Home() {
     return (
-        <div>
+        <divWrapper>
             <Navbar />
             <Wrapper>
-                <div>
-                    <SearchBar />
-                    <Dashboard />
-                </div>
+                <SearchBar />
+                <Dashboard />
             </Wrapper>
-        </div>
+        </divWrapper>
     )
 }
+const divWrapper = styled.div`
+    width: 100%;
+`
 
-const Wrapper = styled.section`
+const Wrapper = styled.div`
     flex-direction: column;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-top: 4em;
     margin-right: 1em;
     margin-left: 1em;
-    div {
-        max-width:1200px
-        min-width: 400px;
+    max-width:900px
+
+    @media (max-width: 1000px) {
+        max-width: 0;
+    }
+
+    @media (max-width: 600px) {
+        .div {
+            width: 80%;
+            font-size: 10px;
+        }
     }
 `

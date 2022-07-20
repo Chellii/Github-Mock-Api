@@ -32,6 +32,7 @@ const Wrapper = styled.section`
     padding: 1em;
     border-radius: 0.25em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 50%;
     .followers {
         display: flex;
         flex-direction: column;
@@ -52,8 +53,8 @@ const Wrapper = styled.section`
     article {
         display: flex;
         align-items: center;
-        border-radius: 0.25rem;
-        padding: 0.5rem 1rem;
+        border-radius: 0.25em;
+        padding: 0.5em 1em;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         margin-bottom: 0.3em;
         img {
@@ -72,6 +73,7 @@ const Wrapper = styled.section`
     }
 
     @media (max-width:1000px) {
+        width: 80%;
         .followers {
             height: 300px;
         }

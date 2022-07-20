@@ -18,25 +18,25 @@ const ErrorContainer = styled.section`
     background: #E1D4E0;
     text-align: center;
     h1 {
-        font-size: 10rem;
+        font-size: 10em;
     }
     h2 {
         color: #756474;
-        margin-bottom: 1rem;
+        margin-bottom: 1em;
     }
     .btn-style {
         text-transform: uppercase;
         text-decoration: none;
         background: #BD83BB;
         color: #FFEBFF;
-        padding: 0.375rem 0.75rem;
+        padding: 0.375em 0.75em;
         display: inline-block;
         font-weight: 400;
-        font-size: 0.875rem;
+        font-size: 0.875em;
         border: 2px solid transparent;
         cursor: pointer;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-        border-radius: 0.25rem;
+        border-radius: 0.25em;
     }
     a:hover {
         background: #6E056A;

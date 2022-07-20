@@ -17,7 +17,6 @@ export default function SearchBar() {
 	};
 
 	return (
-		<section className='section'>
 			<Wrapper className='section-center'>
 				<form onSubmit={handleSubmit}>
 					<div className='form-control'>
@@ -35,12 +34,15 @@ export default function SearchBar() {
 					</div>
 				</form>
 			</Wrapper>
-		</section>
 	);
 };
 
 const Wrapper = styled.div`
 	padding-bottom: 1.5em;
+	width: 80%;
+	@media (max-width:1000px){
+		width: 60%;
+	}
 	.form-control {
 		background: white;
         display: flex;
@@ -48,10 +50,10 @@ const Wrapper = styled.div`
 		justify-content: space-between;
 		border: 1px solid grey;
     	border-radius: 5px;
-		padding: 0.5rem;
+		padding: 0.5em;
 		input {
     		width: 100%;
-			padding: 0.25rem 0.5rem;
+			padding: 0.25em 0.5em;
 			outline: 0;
     		border: 0;
 		}
@@ -62,7 +64,7 @@ const Wrapper = styled.div`
 		button {
 			border-radius: 5px;
 			border-color: transparent;
-			padding: 0.25rem 0.5rem;
+			padding: 0.25em 0.5em;
 			text-transform: capitalize;
 			background: violet;
 			color: white;
@@ -77,7 +79,7 @@ const Wrapper = styled.div`
 			button,
 			input,
 			svg {
-				font-size: 0.85rem;
+				font-size: 0.85em;
 			}
 		}
 	}

@@ -32,4 +32,10 @@ const Wrapper = styled.section`
         flex-direction: column;
         justify-content: center;
     }
+
+    @media (max-width:1000px){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `

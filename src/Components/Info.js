@@ -50,8 +50,8 @@ export default function Info() {
 
 const Wrapper = styled.section`
 .item {
-    border-radius: 0.25rem;
-    padding: 0.5rem 1rem;
+    border-radius: 0.25em;
+    padding: 0.5em 1em;
     background: #C176BA;
     align-items: center;
     margin-bottom: 0.5em;
